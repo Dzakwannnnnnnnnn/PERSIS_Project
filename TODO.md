@@ -1,0 +1,5 @@
+- [ ] Update logo in App/Views/Users/beranda.php to link to home
+- [ ] Update logo in App/Views/Auth/Login.php to link to home
+- [ ] Update logo in App/Views/Auth/Register.php to link to home
+- [ ] Update logo in App/Views/Users/izin.php to link to home
+- [ ] Update logo in App/Views/Users/status.php to link to home
