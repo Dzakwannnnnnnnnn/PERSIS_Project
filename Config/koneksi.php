@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$dbname = 'perizinan_siswa';
-$user = 'root';
-$pass = 'Dzakwann033';
+$dbname = 'sql_dzakwan_pplg24_web_id';
+$user = 'sql_dzakwan_pplg24_web_id';
+$pass = 'password';
 
 try {
   global $conn;
