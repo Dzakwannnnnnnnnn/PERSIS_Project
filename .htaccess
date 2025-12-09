@@ -1,0 +1,16 @@
+#Activate ModRewrite
+RewriteEngine On
+
+# Set the base for rewrites
+RewriteBase /Muhammad_Dzakwan_Perizinan_Siswa/
+
+# Allow direct access to Public/Uploads files
+RewriteCond %{REQUEST_URI} ^/Muhammad_Dzakwan_Perizinan_Siswa/Public/Uploads/.*$
+RewriteRule ^(.*)$ - [L]
+
+#let the folders and files to be access
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#Rewrite URL
+RewriteRule ^(.*)$ index.php?route=$1 [QSA,L]
